@@ -1,0 +1,118 @@
+Trainig & validation for model: logistic_regression
+best threshold: 0.59
+Final F1: 0.85
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     45320
+           1       0.88      0.83      0.85        76
+
+    accuracy                           1.00     45396
+   macro avg       0.94      0.91      0.93     45396
+weighted avg       1.00      1.00      1.00     45396
+
+ROC AUC: 0.9742587796720398
+
+Confusion Matrix:
+[[45311     9]
+ [   13    63]]
+
+
+Trainig & validation for model: random_forest
+best threshold: 0.56
+Final F1: 0.87
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     45320
+           1       0.89      0.86      0.87        76
+
+    accuracy                           1.00     45396
+   macro avg       0.95      0.93      0.94     45396
+weighted avg       1.00      1.00      1.00     45396
+
+ROC AUC: 0.9606325776931295
+
+Confusion Matrix:
+[[45312     8]
+ [   11    65]]
+
+
+Trainig & validation for model: voting
+best threshold: 0.97
+Final F1: 0.84
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     45320
+           1       0.92      0.78      0.84        76
+
+    accuracy                           1.00     45396
+   macro avg       0.96      0.89      0.92     45396
+weighted avg       1.00      1.00      1.00     45396
+
+ROC AUC: 0.9689401681609142
+
+Confusion Matrix:
+[[45315     5]
+ [   17    59]]
+
+
+Testing model: logistic_regression
+best threshold: 0.59
+Final F1: 0.79
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56651
+           1       0.87      0.73      0.79        95
+
+    accuracy                           1.00     56746
+   macro avg       0.94      0.86      0.90     56746
+weighted avg       1.00      1.00      1.00     56746
+
+ROC AUC: 0.9673139973373445
+
+Confusion Matrix:
+[[56641    10]
+ [   26    69]]
+
+
+Testing model: random_forest
+best threshold: 0.56
+Final F1: 0.80
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56651
+           1       0.88      0.73      0.80        95
+
+    accuracy                           1.00     56746
+   macro avg       0.94      0.86      0.90     56746
+weighted avg       1.00      1.00      1.00     56746
+
+ROC AUC: 0.9481485438543844
+
+Confusion Matrix:
+[[56642     9]
+ [   26    69]]
+
+
+Testing model: voting
+best threshold: 0.97
+Final F1: 0.77
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     56651
+           1       0.89      0.68      0.77        95
+
+    accuracy                           1.00     56746
+   macro avg       0.94      0.84      0.89     56746
+weighted avg       1.00      1.00      1.00     56746
+
+ROC AUC: 0.9661294593211064
+
+Confusion Matrix:
+[[56643     8]
+ [   30    65]]
